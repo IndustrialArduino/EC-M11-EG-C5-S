@@ -16,8 +16,7 @@ void loop() {
   Wire.endTransmission();
   delay(100);
   // Read data from the I2C device
-  
-Wire.requestFrom(DEVICE_ADDRESS, 3);  // 3 bytes of data
+  Wire.requestFrom(DEVICE_ADDRESS, 3);  // 3 bytes of data
   if (Wire.available() >= 3) {
     byte data1 = Wire.read();
     byte data2 = Wire.read();

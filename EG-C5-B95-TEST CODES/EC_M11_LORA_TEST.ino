@@ -1,4 +1,4 @@
-/#include <lmic.h>
+#include <lmic.h>
 #include <hal/hal.h>
 #include <SPI.h>
 #define CONFIRMED_MSG_RETRY_COUNT 3
